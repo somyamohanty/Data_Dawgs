@@ -3,7 +3,7 @@ movies_list_parser.py: Parses the list of iMDB titles obtained from
 ftp://ftp.fu-berlin.de/pub/misc/movies/database/movies.list.gz
 """
 
-with open('../data/movies.txt', 'r') as fin:
+with open('../data/movies.list', 'r') as fin:
     data = fin.read().splitlines(True)
 
 # Remove the first 15 header lines, TV series (starts with a "), TV movies, and clean up the
