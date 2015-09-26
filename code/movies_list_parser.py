@@ -12,6 +12,3 @@ data = [x.split('\t')[0] + '\n' for x in data[15:-2] if not x.startswith('"') an
 
 with open('../data/parsed_movies.txt', 'w') as fout:
     fout.writelines(data)
-
-fin.close()
-fout.close()
