@@ -6,6 +6,7 @@ during the editing process.
 """
 import requests
 import json
+from budgetFinder import *
 
 """
 omdb_search uses the OMDb API to search
@@ -65,14 +66,14 @@ def omdb_id_search(query):
 
 def main():
 
-	searchChoice = raw_input("Would you like to search by IMdB(I)D or (F)ilm Name: ")
+	searchChoice = raw_input("Would you like to search by IMdB(I)D or (F)ilm Name or (B)udget: ")
     
 	if searchChoice == 'I' or searchChoice == 'i':
-		str(query) = raw_input("Which movie would you like to search for: ")
+		str(query) = raw_input("Which ID would you like to search for: ")
     	omdb_id_search(query)
 
-	if searchChoice == 'F' or searchChoice == 'f':
-		query = raw_input("Which movie would you like to search for: ")
+	elif searchChoice == 'F' or searchChoice == 'f':
+		query = raw_input("Which movie name would you like to search for: ")
     	omdb_film_search(query)
 
    	else:
