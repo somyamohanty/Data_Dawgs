@@ -13,9 +13,9 @@ from populateDB import *
 
 def main():
 
-    idNum = 61620
+    idNum = 1
 
-    while (idNum < 5500000):
+    while (idNum < 500000):
         stringId = str(idNum).zfill(7)
         print (stringId)
         idNum = idNum + 1

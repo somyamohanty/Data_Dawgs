@@ -6,6 +6,7 @@ __author__ = 'dalton'
 import sqlite3
 import requests
 import json
+import time
 from boxOfficeFinder import *
 from budgetFinder import *
 from myemail import *
@@ -21,19 +22,21 @@ IMDb for movie information.
 """
 def omdb_id_search(query):
     try:
-        label: retry
         r = requests.get("http://www.omdbapi.com/?i=tt" + str(query) + "&plot=full&r=json&tomatoes=true")
         try:
             parsed_movie_data = json.loads(r.text)
             if parsed_movie_data['Response'] == 'False':
+                print ('Was False')
                 return
 
             else:
                 if parsed_movie_data['Type'] != 'movie':
+                    print ('Not Movie')
                     return
 
                 else:
                     if parsed_movie_data['Genre'] == 'Documentary' or parsed_movie_data['Genre'] == 'Adult':
+                        print ('Ehhh')
                         return
 
                     else:
@@ -67,13 +70,16 @@ def omdb_id_search(query):
                                            (imdbID, title, year, rated, plot, genre, runtime, released, production, writer, director, actors, language, country, boxOffice, budget, metascore, imdbRating, imdbVotes, awards))
 
                         connection.commit()
+                        time.sleep(1)
 
         except ValueError:
+            print ('JSON broke')
             return
 
     except ConnectionError:
+        print ('API Connection Error')
         time.sleep(5)
-        goto retry
+        omdb_id_search(query)
 
 
 
