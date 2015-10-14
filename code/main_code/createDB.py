@@ -32,6 +32,7 @@ cursor.execute("""CREATE TABLE movies
     language TEXT NOT NULL,
     country TEXT NOT NULL,
     boxOffice TEXT NOT NULL,
+    budget TEXT NOT NULL,
     metascore TEXT NOT NULL,
     imdbRating TEXT NOT NULL,
     imdbVotes TEXT NOT NULL,
