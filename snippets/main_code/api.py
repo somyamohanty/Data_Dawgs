@@ -15,9 +15,8 @@ def main():
 
     idNum = 1
 
-    while (idNum < 500000):
+    while (idNum < 5500000):
         stringId = str(idNum).zfill(7)
-        print (stringId)
         idNum = idNum + 1
         omdb_id_search(stringId)
 
