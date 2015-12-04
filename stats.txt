@@ -1,0 +1,14 @@
+Total movies: 1103922
+Movies in our model (USA only): 71565 (training + test)
+Actors: 76440 (training)
+Director: 20962 (training)
+Plot keywords: 60376 (training)
+Movies with box-office budget data: 15556 (training + test)
+Movies with box-office gross data: 4205 (training + test)
+Movies with box-office data: 4201 (training + test)
+
+LINEAR REGRESSION
+R-squared: 0.2121
+Tolerance: 79%
+Mean squared error (MSE): 3.1117
+Mean absolute error (MAE): 1.370
