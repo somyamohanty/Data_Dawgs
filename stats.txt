@@ -10,5 +10,6 @@ Movies with box-office data: 4201 (training + test)
 LINEAR REGRESSION
 R-squared: 0.2121
 Tolerance: 79%
+Standard error: 0.0045
 Mean squared error (MSE): 3.1117
 Mean absolute error (MAE): 1.370
