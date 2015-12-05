@@ -11,5 +11,9 @@ LINEAR REGRESSION
 R-squared: 0.2121
 Tolerance: 79%
 Standard error: 0.0045
-Mean squared error (MSE): 3.1117
+Root mean squared error (RMSE): 1.764
 Mean absolute error (MAE): 1.370
+
+LOGISTIC REGRESSION
+Root mean squared error (RMSE): 1.606
+Mean absolute error (MAE): 1.206
