@@ -8,7 +8,6 @@ Movies with box-office gross data: 4205 (training + test)
 Movies with box-office data: 4201 (training + test)
 
 LINEAR REGRESSION
-Intercept = 5.9168151563836675
 R-squared: 0.2121
 Tolerance: 79%
 Standard error: 0.0045
