@@ -1,7 +1,7 @@
 # Data_Dawgs
 
 ## Project Tile
-#### Film Analytics : Predicting Movies Rating Using IMDb Data
+### Film Analytics : Predicting Movies Rating Using IMDb Data
 
 #### Members
 * [Jacob Dalton Childers](https://github.com/jdaltonchilders)
