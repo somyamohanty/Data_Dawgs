@@ -25,5 +25,5 @@ Film Analytics is a project aimed at predicting iMDB movie ratings using covaria
 * [Scikit](http://scikit-learn.org/stable/)
 
 #### Data
-* [OMDb Data Set](https://drive.google.com/open?id=0B56P6YdY6qL9LUF5UG9GWU9oVEk)
-* [Tomato Data Set](https://drive.google.com/open?id=0B56P6YdY6qL9QkF2NDFkdm04UFE)
+* [OMDb Data Set](https://drive.google.com/file/d/0B56P6YdY6qL9LUF5UG9GWU9oVEk/view?usp=sharing)
+* [Tomato Data Set](https://drive.google.com/file/d/0B56P6YdY6qL9QkF2NDFkdm04UFE/view?usp=sharing)
