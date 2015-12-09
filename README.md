@@ -9,4 +9,3 @@ Film Analytics is a project aimed at predicting iMDB movie ratings using covaria
 * Jacob Dalton Childers
 * Siddhant Sutar
 * Neil Matin
-* Abhimanyu Tomar
