@@ -19,7 +19,7 @@ Film Analytics is a project aimed at predicting iMDB movie ratings using covaria
 #### Dependencies
 * [Python Language](https://www.python.org/)
 * [Requests](http://docs.python-requests.org/en/latest/)
-* [Juypter](http://jupyter.org/)
+* [Jupyter](http://jupyter.org/)
 * [Pandas](http://pandas.pydata.org/)
 * [Numpy](http://www.numpy.org/)
 * [Scikit](http://scikit-learn.org/stable/)
