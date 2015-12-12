@@ -1,5 +1,7 @@
 Total movies: 1103922
-Movies in our model (USA only): 71565 (training + test)
+-----
+ANALYSIS
+Movies (USA only): 71565 (training + test)
 Actors: 76440 (training)
 Director: 20962 (training)
 Plot keywords: 60376 (training)
@@ -17,3 +19,19 @@ Mean absolute error (MAE): 1.370
 LOGISTIC REGRESSION
 Root mean squared error (RMSE): 1.606
 Mean absolute error (MAE): 1.206
+-----
+ANALYSIS WITH REDUCED DIMENSIONALITY AND SAMPLE (Considering only movies with greater than 1000 votes)
+Movies (USA only): 11507 (training + test)
+Actors: 13171 (training)
+Directors: 4035 (training)
+Plot keywords: 32516 (training)
+
+LINEAR REGRESSION
+R-squared: 0.2588
+Tolerance: 75%
+Root mean squared error (RMSE): 1.586
+Mean absolute error (MAE): 1.235
+
+LOGISTIC REGRESSION
+Root mean squared error (RMSE): 1.649
+Mean absolute error (MAE): 1.304
