@@ -5,7 +5,7 @@
 
 #### Members
 * [Jacob Dalton Childers](https://github.com/jdaltonchilders)
-* [Siddhant Sutar](https://github.com/strsid)
+* [Siddhant Sutar](https://github.com/siddhantsutar)
 * [Neil Matin](https://github.com/neil007m)
 
 #### Instructor
